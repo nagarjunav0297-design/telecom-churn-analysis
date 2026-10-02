@@ -2,7 +2,7 @@
 
 I wanted to understand why telecom customers leave, and see if I could spot the new customers most likely to leave next. This project goes from a raw CSV to a cleaned SQL database, a Power BI dashboard, and a Random Forest model that scores the newest customers.
 
-**Tools:** SQL Server (T-SQL), Power BI, Python (pandas, scikit-learn, matplotlib, seaborn), Jupyter
+**Tools:** SQL, Power BI, Python, Excel, Jupyter
 
 ## The questions
 
@@ -127,7 +127,3 @@ The model flagged **374 of the 411 new joiners** as likely churners. Of those, 2
 3. Run the cells once, from top to bottom. Running the data-processing cell twice breaks the label encoders, so restart the kernel if you need to start over.
 4. Open `Telecom_2.pbix` in Power BI Desktop to see the dashboards.
 5. To rebuild the database, load `Customer_Data.csv` into a table called `stg_Churn` in SQL Server and run the four scripts in order.
-
-## Credits
-
-[Add here where the dataset came from, and any tutorial or course you followed.]
